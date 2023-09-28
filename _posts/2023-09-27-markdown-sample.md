@@ -1,6 +1,46 @@
+---
+layout: post
+title: "Markdown Sample Post"
+subtitle: "Using Markdown"
+date: 2023-09-27 10:45:13 -0400
+background: '/img/posts/06.jpg'
+---
+
 An h1 header
 ============
 
+Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.
+
+Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+| Syntax      |   &nbsp; &nbsp; Description |
+| :---------: | :------------: |
+| :heavy_check_mark: | :x: |
+| :x: | :heavy_check_mark: |
+| :heavy_check_mark: | :x: |
+
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+
+*[UHG]: Universal Hyperbolic Geometry
+
+With UHG the math is exact.
+
+What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.
+
+I give this plugin two :+1:!
+
+Gone camping! :tent: Be back soon.
+
+That is so funny! :joy:
+
+Function | MySQL / MariaDB | PostgreSQL | SQLite
+:------------ | :-------------| :-------------| :-------------
+substr | :heavy_check_mark: |  :white_check_mark: | :heavy_check_mark:
 Paragraphs are separated by a blank line.
 
 2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
