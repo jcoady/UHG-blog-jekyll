@@ -186,10 +186,11 @@ Here's a "line block":
 
 and images can be specified like so:
 
-![example image](/docs/uhg1.jpg "An exemplary image")
-![example image](docs/uhg1.jpg "An exemplary image")
-![example image](/img/posts/SchoolOfAthens01jpg "An exemplary image")
-![example image](../img/posts/SchoolOfAthens01jpg "An exemplary image")
+![example image](/assets/uhg1.jpg "An exemplary image")  
+![example image](/master/assets/uhg1.jpg "An exemplary image")  
+![example image](/master/assets/uhg1.jpg "An exemplary image")  
+![example image](/img/posts/SchoolOfAthens01jpg "An exemplary image")  
+![example image](master/img/posts/SchoolOfAthens01jpg "An exemplary image")  
 
 Inline math equations go in like so: $\omega = d\phi / dt$. Display
 math should get its own line and be put in in double-dollarsigns:
