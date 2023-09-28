@@ -186,7 +186,7 @@ Here's a "line block":
 
 and images can be specified like so:
 
-![example image](/assets/uhg1.jpg "An exemplary image")  
+![example image](https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/uhg1.jpg "An exemplary image")  
 ![example image](/master/assets/uhg1.jpg "An exemplary image")  
 ![example image](/master/assets/uhg1.jpg "An exemplary image")  
 ![example image](/img/posts/SchoolOfAthens01jpg "An exemplary image")  
