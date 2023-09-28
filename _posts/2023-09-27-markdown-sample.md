@@ -187,10 +187,8 @@ Here's a "line block":
 and images can be specified like so:
 
 ![example image](https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/uhg1.jpg "An exemplary image")  
-![example image](/master/assets/uhg1.jpg "An exemplary image")  
-![example image](/master/assets/uhg1.jpg "An exemplary image")  
-![example image](/img/posts/SchoolOfAthens01jpg "An exemplary image")  
-![example image](master/img/posts/SchoolOfAthens01jpg "An exemplary image")  
+<img src="https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/uhg1.jpg"  width="60%" height="60%">
+<img src="https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/uhg1.jpg"  width="30%" height="30%">
 
 Inline math equations go in like so: $\omega = d\phi / dt$. Display
 math should get its own line and be put in in double-dollarsigns:
