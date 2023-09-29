@@ -190,6 +190,7 @@ and images can be specified like so:
 <img src="https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/uhg1.jpg"  width="60%" height="60%">
 <img src="https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/uhg1.jpg"  width="30%" height="30%">
 ![example image](https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/img/img6.jpg "An exemplary image")  
+<img src="https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/img/img6.jpg"  width="60%" height="60%">
 
 Inline math equations go in like so: $\omega = d\phi / dt$. Display
 math should get its own line and be put in in double-dollarsigns:
