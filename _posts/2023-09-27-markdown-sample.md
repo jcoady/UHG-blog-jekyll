@@ -189,8 +189,8 @@ and images can be specified like so:
 ![example image](https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/uhg1.jpg "An exemplary image")  
 <img src="https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/uhg1.jpg"  width="60%" height="60%">
 <img src="https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/uhg1.jpg"  width="30%" height="30%">
-![example image](https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/img/img6.jpg "An exemplary image")  
-<img src="https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/img/img6.jpg"  width="60%" height="60%">
+![example image](https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/images/SOA_tiling3.png "An exemplary image")  
+<img src="https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/images/SOA_tiling3.png"  width="60%" height="60%">
 ![hyperbolic image](https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/images/SOA_tiling3.png "Hyperbolic School Of Athens")  
 ![example image](https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/images/BeltramiKleinModel.png "An exemplary image")  
 ![example image](https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/images/QuadrangleTriangulation1.png "An exemplary image")  
