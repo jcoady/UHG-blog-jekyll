@@ -199,3 +199,125 @@ $$I = \int \rho R^{2} dV$$
 
 And note that you can backslash-escape any punctuation characters
 which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
+
+
+<!-- Headings -->
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Headng 6
+
+<!-- Emphasis -->
+*This text* is italic  
+_This text_ is italic
+
+<!-- bold -->
+**This text** is bold  
+__This text__ is bold
+
+
+<!-- strike through -->
+~~This text~~ is strikethrough  
+
+<!-- horizontal rule -->
+---  
+Horizontal rule to separate content
+___  
+
+<!-- block quote -->
+> Out of nothing I have created a strange new universe.
+>
+> -- <cite> Janos Bolyai </cite>
+
+> Euclid freed of every flaw
+>
+> &mdash; <cite> Saccheri </cite>
+
+
+<!-- links -->
+[Link text](https://www.cbc.ca "news")
+
+<!-- Unordered list -->
+##### Unordered List
+* Item 1
+* Item 2
+* Item 3
+    * Nested Item 1
+    * Nested Item 2
+* Item 4
+    * Nested Item 4.1
+        * Double nested item 4.1.1
+* Item 5
+
+<!-- Ordered list -->
+##### Ordered List
+1. Item 1
+1. Item 2
+1. Item 3
+    1. Item 3.1
+        1. Item 3.1.1
+    1. Item 3.2
+1. Item 4
+
+<!-- Inline Code block -->
+##### Inline Code Block (use back tick mark)
+`<p>This is a paragraph</p>`
+
+<!-- Images -->
+##### Image
+![Markdown logo](https://markdown-here.com/img/icon256.png)
+
+
+<!-- Github Markdown -->
+#### Github Markdown
+
+##### Code blocks (triple backticks ```code```)
+
+```python
+def hello():
+    print("Hello World")
+```
+
+```javascript
+function add(num1, num2){
+    return num1 + num2
+}
+```
+
+```mathematica
+x = val
+a b c
+f[x,y]
+
+```
+
+##### Tables
+|Name     | email |
+|------   | ---- |
+|John Doe | johndoe@gmail.com |
+|Jane Doe | janedoe@gmail.com |
+
+##### Task Lists
+
+* [x] Task 1
+* [x] Task 2
+* [] Task 3
+
+<script src="https://giscus.app/client.js"
+        data-repo="jcoady/discussions"
+        data-repo-id="R_kgDOKaqltQ"
+        data-category="Comments"
+        data-category-id="[ENTER CATEGORY ID HERE]"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
