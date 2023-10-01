@@ -313,8 +313,8 @@ f[x,y]
 <script src="https://giscus.app/client.js"
         data-repo="jcoady/discussions"
         data-repo-id="R_kgDOKaqltQ"
-        data-category="Comments"
-        data-category-id="[ENTER CATEGORY ID HERE]"
+        data-category="General"
+        data-category-id="DIC_kwDOKaqltc4CZx4o"
         data-mapping="url"
         data-strict="0"
         data-reactions-enabled="1"
@@ -326,3 +326,4 @@ f[x,y]
         crossorigin="anonymous"
         async>
 </script>
+
