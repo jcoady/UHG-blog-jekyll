@@ -349,11 +349,11 @@ end
 * [] Task 3
 
 <script src="https://giscus.app/client.js"
-        data-repo="jcoady/UHG-blog-jekyll"
+        data-repo="jcoady/blog"
         data-repo-id="R_kgDOKZDDqA"
-        data-category="General"
-        data-category-id="DIC_kwDOKZDDqM4CZx2L"
-        data-mapping="url"
+        data-category="blog comments"
+        data-category-id="DIC_kwDOKZDDqM4CZzR4"
+        data-mapping="pathname"
         data-strict="0"
         data-reactions-enabled="1"
         data-emit-metadata="0"
@@ -364,5 +364,6 @@ end
         crossorigin="anonymous"
         async>
 </script>
+
 
 
