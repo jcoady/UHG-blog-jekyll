@@ -2,7 +2,7 @@ title:              UHG Blog
 email:              johncoady@shaw.ca
 description:        UHG Universal Hyperbolic Geometry, Quadrea of Projective Quadrangle, Quadreal of Projective Quadrilateral
 author:             John Coady
-baseurl:            "/UHG-blog-jekyll"
+baseurl:            "/blog"
 url:                "https://jcoady.github.io"
 
 # Social Profiles
