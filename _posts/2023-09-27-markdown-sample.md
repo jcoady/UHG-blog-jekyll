@@ -311,10 +311,10 @@ f[x,y]
 * [] Task 3
 
 <script src="https://giscus.app/client.js"
-        data-repo="jcoady/discussions"
-        data-repo-id="R_kgDOKaqltQ"
+        data-repo="jcoady/UHG-blog-jekyll"
+        data-repo-id="R_kgDOKZDDqA"
         data-category="General"
-        data-category-id="DIC_kwDOKaqltc4CZx4o"
+        data-category-id="DIC_kwDOKZDDqM4CZx2L"
         data-mapping="url"
         data-strict="0"
         data-reactions-enabled="1"
@@ -326,4 +326,5 @@ f[x,y]
         crossorigin="anonymous"
         async>
 </script>
+
 
