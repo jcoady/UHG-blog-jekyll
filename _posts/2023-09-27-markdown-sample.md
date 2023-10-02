@@ -298,6 +298,44 @@ f[x,y]
 
 ```
 
+##### Code blocks for jekyll kramdown (triple tilde ~~~code~~~)
+
+~~~ python
+def hello():
+    print("Hello World")
+~~~
+
+~~~javascript
+function add(num1, num2){
+    return num1 + num2
+}
+~~~
+
+~~~ javascript
+function add(num1, num2){
+    return num1 + num2
+}
+~~~
+
+~~~ mathematica
+x = val
+a b c
+f[x,y]
+
+~~~
+
+~~~mathematica
+x = val
+a b c
+f[x,y]
+
+~~~
+
+~~~ ruby
+def what?
+  42
+end
+~~~
 ##### Tables
 |Name     | email |
 |------   | ---- |
