@@ -1,12 +1,48 @@
 ---
 layout: post
-title: "Quadrea of Projective Quadrangle Theorem"
-subtitle: "Employing Archimedes function to help discover and prove exact formulas for the quadrea of a projective quadrangle and the dual quadreal of a projective quadrilateral in Unversal Hyperbolic Geometry"
+title: "Quadrea of a Projective Quadrangle Theorem"
+subtitle: "Employing Archimedes function to help discover and prove exact formulas for the quadrea of a projective quadrangle and the corresponding dual, the quadreal of a projective quadrilateral, in Universal Hyperbolic Geometry"
 date: 2023-10-04 10:52:13 -0400
 background: '/assets/images/SOA_Archimedes.jpg'
 ---
 
 ## Quadrea of a Projective Quadrangle in Universal Hyperbolic Geometry
+
+Here is the main theorem that we will prove for a general projective quadrangle in UHG consisting of projective points $a_{1}$, $a_{2}$, $a_{3}$ and $a_{4}$ as depicted in the following diagram.
+
+![example image](https://raw.githubusercontent.com/jcoady/blog/master/assets/images/UHGModel.png "An exemplary image")  
+
+<img src="/blog/assets/images/UHGModel.png"  width="60%" height="60%">
+
+### Quadrea of a Projective Quadrangle Theorem
+
+
+ Suppose $a_{1}$, $a_{2}$, $a_{3}$ and $a_{4}$ are distinct points of a general projective quadrangle with quadrances $q_{12} \equiv q(a_1,a_2)$, $q_{23} \equiv q(a_2,a_3)$, $q_{34} \equiv q(a_3,a_4)$ and  $q_{41} \equiv q(a_4,a_1)$ and spreads $S_1 \equiv S(a_{4}a_{1},a_{1}a_{2})$, $S_2 \equiv S(a_{1}a_{2},a_{2}a_{3})$, $S_3 \equiv S(a_{2}a_{3},a_{3}a_{4})$ and $S_4 \equiv S(a_{3}a_{4},a_{4}a_{1})$ and quadrea $\mathcal{B}$. Then the quadrea of the projective quadrangle is the common solution to the following pair of compatible quadratic equations
+
+
+$$\begin{split}
+(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 &= q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})\\
+(\mathcal{B}-q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})^2 &= q_{12}q_{23}q_{34}q_{41}(1-S_{2})(1-S_{4})
+\end{split}$$
+
+If $q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} -q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3} \neq 0$ then the quadrea is precisely 
+
+$$\begin{split}\mathcal{B} = \frac{q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} + q_{41}q_{12}S_{1} + q_{23}q_{34}S_{3}}{2}\quad + \\ \frac{q_{12}q_{23}q_{34}q_{41}((1-S_{1})(1-S_{3}) - (1-S_{2})(1-S_{4}))}{2(q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} - q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})}\end{split}$$
+   
+
+
+|---------+---------|
+| Triangulation 1 | Triangulation 2  |
+|:--------|--------:|
+| <img src="/blog/assets/images/QuadrangleTriangulation1.png"  width="50%" height="50%">      | <img src="/blog/assets/images/QuadrangleTriangulation2.png"  width="50%" height="50%">        |
+|=========+=========|
+| $$\begin{split}
+(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{1in} \\ q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})
+\end{split}$$   | $$\begin{split}
+(\mathcal{B}-q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})^2 = \hspace{1in} \\ q_{12}q_{23}q_{34}q_{41}(1-S_{2})(1-S_{4})
+\end{split}$$   |
+|---------+---------|
+
 
 
 ##### Using full url
@@ -87,14 +123,24 @@ $$S_1 = quadrance(L_{41}, L_{12}) = 1 - \frac{(x_1x_2 + y_1y_2 - z_1z_2)^2}{(x_1
 | :--- | :---: | :---: | 
 | Pythagoras | $Q_1 + Q_2 = Q_3$ | $q_3 = q_1 + q_2 - q_1q_2$ |
 | Triple quad formula | $$(Q_1 + Q_2 + Q_3)^2 = 2(Q_1^2 + Q_2^2 + Q_3^2)$$ | $$\begin{split}(q_1 + q_2 + q_3)^2 = \hspace{1in} \\ 2(q_1^2 + q_2^2 + q_3^2) + 4q_1q_2q_3\end{split}$$ |
-|Spread law | $$\frac{s_1}{Q_1} = \frac{s_2}{Q_2} = \frac{s_3}{Q_3}$$  |  $$\frac{S_1}{q_1} = \frac{S_2}{q_2} = \frac{S_3}{q_3}$$  |
+|Spread <br>law | $$\frac{s_1}{Q_1} = \frac{s_2}{Q_2} = \frac{s_3}{Q_3}$$  |  $$\frac{S_1}{q_1} = \frac{S_2}{q_2} = \frac{S_3}{q_3}$$  |
 | Cross Law | $$(Q_1 + Q_2 - Q_3)^2 = 4Q_1Q_2(1-s_3)$$ | $$\begin{split}(q_1q_2S_3 - q_1 - q_2 - q_3 + 2)^2 = \hspace{0.5in} \\ 4(1-q_1)(1-q_2)(1-q_3)\end{split}$$ |
 | Triple spread  formula | $$\begin{split}(s_1 + s_2 + s_3)^2 = \hspace{1in} \\ 2(s_1^2 + s_2^2 + s_3^2) + 4s_1s_2s_3\end{split}$$ | not applicable |  
 
 Table 1: Main Laws of Rational Trigonometry and Universal Hyperbolic Geometry
 
 
-
+|---------+---------+---------|
+| Header1 | Header2 | Header3 |
+|---------|:--------|--------:|
+| 1       | 2       | 3       |
+| 4       | 5       | 6       |
+|---------+---------+---------|
+| 8       | 95      | 106     |
+| 894     | 345     | 866     |
+|=========+=========+=========|
+| Foot1   | Foot2   | Foot3   |
+|---------+---------+---------|
 
 
 
