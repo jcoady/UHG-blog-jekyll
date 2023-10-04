@@ -277,7 +277,7 @@ $$S_1 = quadrance(L_{41}, L_{12}) = 1 - \frac{(x_1x_2 + y_1y_2 - z_1z_2)^2}{(x_1
 | Formula     |  Affine Geometry &nbsp; &nbsp; &nbsp; &nbsp; <br> (Rational Trigonometry)  | &nbsp; &nbsp; Projective Geometry &nbsp; &nbsp;<br> (Universal Hyperbolic Geometry) |
 | :--- | :---: | :---: | 
 | Pythagoras | $Q_1 + Q_2 = Q_3$ | $q_3 = q_1 + q_2 - q_1q_2$ |
-| Triple quad formula | $$(Q_1 + Q_2 + Q_3)^2 = 2(Q_1^2 + Q_2^2 + Q_3^2)$$ | $$(q_1 + q_2 + q_3)^2 = 2(q_1^2 + q_2^2 + q_3^2) + 4q_1q_2q_3$$ |
+| Triple quad formula | $$(Q_1 + Q_2 + Q_3)^2 = 2(Q_1^2 + Q_2^2 + Q_3^2)$$ | $$\begin{split}(q_1 + q_2 + q_3)^2 = \hspace{1in} \\ 2(q_1^2 + q_2^2 + q_3^2) + 4q_1q_2q_3\end{split}$$ |
 |Spread law | $$\frac{s_1}{Q_1} = \frac{s_2}{Q_2} = \frac{s_3}{Q_3}$$  |  $$\frac{S_1}{q_1} = \frac{S_2}{q_2} = \frac{S_3}{q_3}$$  |
 | Cross Law | $$(Q_1 + Q_2 - Q_3)^2 = 4Q_1Q_2(1-s_3)$$ | $$\begin{split}(q_1q_2S_3 - q_1 - q_2 - q_3 + 2)^2 = \hspace{0.5in} \\ 4(1-q_1)(1-q_2)(1-q_3)\end{split}$$ |
 | Triple spread  formula | $$\begin{split}(s_1 + s_2 + s_3)^2 = \hspace{1in} \\ 2(s_1^2 + s_2^2 + s_3^2) + 4s_1s_2s_3\end{split}$$ | not applicable |  
