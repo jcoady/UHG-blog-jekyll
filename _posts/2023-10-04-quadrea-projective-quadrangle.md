@@ -10,8 +10,6 @@ background: '/assets/images/SOA_Archimedes.jpg'
 
 Here is the main theorem that we will prove for a general projective quadrangle in UHG consisting of projective points $a_{1}$, $a_{2}$, $a_{3}$ and $a_{4}$ as depicted in the following diagram.
 
-![example image](https://raw.githubusercontent.com/jcoady/blog/master/assets/images/UHGModel.png "An exemplary image")  
-
 <img src="/blog/assets/images/UHGModel.png"  width="60%" height="60%">
 
 ### Quadrea of a Projective Quadrangle Theorem
@@ -30,18 +28,16 @@ If $q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} -q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3}
 $$\begin{split}\mathcal{B} = \frac{q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} + q_{41}q_{12}S_{1} + q_{23}q_{34}S_{3}}{2}\quad + \\ \frac{q_{12}q_{23}q_{34}q_{41}((1-S_{1})(1-S_{3}) - (1-S_{2})(1-S_{4}))}{2(q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} - q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})}\end{split}$$
    
 
-
-|---------+---------|
-| Triangulation 1 | Triangulation 2  |
-|:--------|--------:|
-| <img src="/blog/assets/images/QuadrangleTriangulation1.png"  width="50%" height="50%">      | <img src="/blog/assets/images/QuadrangleTriangulation2.png"  width="50%" height="50%">        |
-|=========+=========|
+| Triangulation 1  | &nbsp; &nbsp; Triangulation 2 |
+| :---: | :---: | 
+| <img src="/blog/assets/images/QuadrangleTriangulation1.png"  width="40%" height="40%"> | <img src="/blog/assets/images/QuadrangleTriangulation1.png"  width="40%" height="40%"> |
 | $$\begin{split}
-(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{1in} \\ q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})
+(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{0.5in} \\ q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})
 \end{split}$$   | $$\begin{split}
-(\mathcal{B}-q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})^2 = \hspace{1in} \\ q_{12}q_{23}q_{34}q_{41}(1-S_{2})(1-S_{4})
+(\mathcal{B}-q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})^2 = \hspace{0.5in} \\ q_{12}q_{23}q_{34}q_{41}(1-S_{2})(1-S_{4})
 \end{split}$$   |
-|---------+---------|
+
+
 
 
 
