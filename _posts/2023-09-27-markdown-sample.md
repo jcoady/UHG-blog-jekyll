@@ -120,7 +120,9 @@ Now a nested list:
 
         find wooden spoon
         uncover pot
+        do the other thing
         stir
+        and stir some more
         cover pot
         balance wooden spoon precariously on pot handle
         wait 10 minutes
@@ -139,11 +141,11 @@ doc](#an-h2-header). Here's a footnote [^1].
 
 Tables can look like this:
 
-size  material      color
-----  ------------  ------------
-9     leather       brown
-10    hemp canvas   natural
-11    glass         transparent
+|size | material   |   color |
+|--- |  ---------  | -------- |
+|9   |  leather  |     brown |
+|10 |   hemp canvas |  natural |
+| 11 | glass | transparent |
 
 Table: Shoes, their sizes, and what they're made of
 
@@ -162,18 +164,29 @@ green     Leaves, grass, frogs
           not easy being.
 --------  -----------------------
 
-A horizontal rule follows.
+A horizontal rule follows using three stars
 
 ***
 
+Another one using three dashes
+
+---
+
+And another one using three underscores
+
+___
+
+
 Here's a definition list:
 
-apples
-  : Good for making applesauce.
-oranges
-  : Citrus!
-tomatoes
-  : There's no "e" in tomatoe.
+apples  
+: Good for making applesauce.  
+
+oranges  
+: Citrus!  
+
+tomatoes  
+: There's no "e" in tomatoe.
 
 Again, text is indented 4 spaces. (Put a blank line between each
 term/definition pair to spread things out more.)
@@ -222,6 +235,11 @@ _This text_ is italic
 **This text** is bold  
 __This text__ is bold
 
+<!-- bold and italicize text -->
+##### bold and italicize text
+***This is bold and italic***  
+
+___This too is bold and italic___
 
 <!-- strike through -->
 ~~This text~~ is strikethrough  
@@ -230,6 +248,10 @@ __This text__ is bold
 ---  
 Horizontal rule to separate content
 ___  
+Can also use 3 stars to add horizontal line
+
+***
+
 
 <!-- block quote -->
 > Out of nothing I have created a strange new universe.
@@ -240,9 +262,51 @@ ___
 >
 > &mdash; <cite> Saccheri </cite>
 
+##### BLock quote within a block quote
+> This ia a block quote
+> > This is sub block quote
+> > > This is a sub sub block quote
+> 
+> very good
+
+
+<!-- superscript -->
+##### Superscript
+
+X^2^  
+X<sup>2</sup>
+
+
+<!-- subscript -->
+##### Subscript
+
+H~2~O  
+H<sub>2</sub>O
+
 
 <!-- links -->
-[Link text](https://www.cbc.ca "news")
+# Links
+
+[Link text](https://www.google.com "google")  
+
+<https://www.google.com>  
+
+https://www.google.com
+
+[Links header in page](#links)
+
+### Reference links defined at bottom of page
+[Universal Hyperbolic Geometry videos][uhg]  
+[arXiv][uhgI]
+
+### Turn and image into a link
+[![Markdown logo](https://markdown-here.com/img/icon256.png)](https://www.markdownguide.org "Markdown Guide")  
+
+
+##### Reference links
+[uhg]: https://www.youtube.com/watch?v=EvP8VtyhzXs&list=PLIljB45xT85CN9oJ4gYkuSQQhAtpIucuI "Insights into Mathematics"  
+[uhgI]: https://arxiv.org/abs/0909.1377 "Universal Hyperbolic Geometry I: Trigonometry"
+
 
 <!-- Unordered list -->
 ##### Unordered List
@@ -255,6 +319,22 @@ ___
     * Nested Item 4.1
         * Double nested item 4.1.1
 * Item 5
+
+##### You can use either symbol *, -, + for Unordered list
+* Item 1
+- Item 2
++ Item 3  
+
+Another list
++ Item 1
++ Item 2
+    - Item 1
+    * Item 2
+        * Item 1
+        - Item 2
+        + Item 3
+* Item 3
+- Item 4
 
 <!-- Ordered list -->
 ##### Ordered List
@@ -273,6 +353,16 @@ ___
 <!-- Images -->
 ##### Image
 ![Markdown logo](https://markdown-here.com/img/icon256.png)
+
+
+##### Relatve path
+![UHG Model](../assets/images/UHGModel.png)  
+
+##### Using pathname
+![UHG Model](/blog/assets/images/UHGModel.png)  
+
+##### Using pathname with master
+![UHG Model](/blog/master/assets/images/UHGModel.png)  
 
 
 <!-- Github Markdown -->
@@ -336,17 +426,37 @@ def what?
   42
 end
 ~~~
+
+## Extended Markdown Functionality
+
 ##### Tables
 |Name     | email |
 |------   | ---- |
 |John Doe | johndoe@gmail.com |
 |Jane Doe | janedoe@gmail.com |
 
+| Packages | Description | Version |
+| :---     |    :---:    |    ---: |
+| React    | Javascript Framework | v18.0 |
+| Next.js  | React Framework      | v12.0 |
+
+
 ##### Task Lists
 
 * [x] Task 1
 * [x] Task 2
-* [] Task 3
+* [ ] Task 3
+
+- [x] ldafdlkjf
+- [ ] aldfsdlkf
+- [X] lkdfadlfasdfj
+
+#### Markdown Emoji 
+##### Need Extension in vscode
+:smile:  
+:joy:  
+:bulb:  
+
 
 <script src="https://giscus.app/client.js"
         data-repo="jcoady/blog"
