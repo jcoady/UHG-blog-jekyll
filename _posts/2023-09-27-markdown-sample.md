@@ -38,8 +38,8 @@ Gone camping! :tent: Be back soon.
 
 That is so funny! :joy:
 
-| Function | MySQL / MariaDB | PostgreSQL | SQLite |
-| :---- | :---------| :--------- | :----------|
+| Function | &nbsp; &nbsp;  MySQL / MariaDB | &nbsp; &nbsp;  PostgreSQL | &nbsp; &nbsp; SQLite |
+| :---- | :-----: | :--------: | :-------: |
 |substr | :heavy_check_mark: |  :white_check_mark: | :heavy_check_mark: |
 
 
@@ -143,7 +143,7 @@ doc](#an-h2-header). Here's a footnote [^1].
 
 Tables can look like this:
 
-|size | material   |   color |
+|size | &nbsp; &nbsp; material   |  &nbsp; &nbsp;  color |
 |--- |  ---------  | -------- |
 |9   |  leather  |     brown |
 |10 |   hemp canvas |  natural |
@@ -154,17 +154,12 @@ Table: Shoes, their sizes, and what they're made of
 (The above is the caption for the table.) Pandoc also supports
 multi-line tables:
 
---------  -----------------------
-keyword   text
---------  -----------------------
-red       Sunsets, apples, and
-          other red or reddish
-          things.
+### multiline table using html `<br>`
 
-green     Leaves, grass, frogs
-          and other things it's
-          not easy being.
---------  -----------------------
+|keyword  |&nbsp; &nbsp;  text |
+|--------|  -----------------------|
+|red     |  Sunsets, apples, and <br> other red or reddish <br>  things.  |
+|green  |  Leaves, grass, frogs <br> and other things it's <br> not easy being.|
 
 A horizontal rule follows using three stars
 
@@ -180,6 +175,10 @@ ___
 
 
 Here's a definition list:
+
+Definition  
+: Definition is a statement that describes the meaning of the listed word in the heading.   
+
 
 apples  
 : Good for making applesauce.  
