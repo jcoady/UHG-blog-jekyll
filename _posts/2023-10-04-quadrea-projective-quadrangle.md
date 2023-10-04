@@ -26,26 +26,12 @@ $$\begin{split}
 If $q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} -q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3} \neq 0$ then the quadrea is precisely 
 
 $$\begin{split}\mathcal{B} = \frac{q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} + q_{41}q_{12}S_{1} + q_{23}q_{34}S_{3}}{2}\quad + \\ \frac{q_{12}q_{23}q_{34}q_{41}((1-S_{1})(1-S_{3}) - (1-S_{2})(1-S_{4}))}{2(q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} - q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})}\end{split}$$
-   
-<table>
-  <tr>
-    <td> <img src="/blog/assets/images/QuadrangleTriangulation1.png"  width="40%" height="40%"></td>
-
-    <td> <img src="/blog/assets/images/QuadrangleTriangulation2.png"  width="40%" height="40%"></td>
-   </tr> 
-   <tr>
-      <td>$$\begin{split}
-(\mathcal{B}-q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})^2 = \hspace{0.5in} \\ q_{12}q_{23}q_{34}q_{41}(1-S_{2})(1-S_{4})
-\end{split}$$</td>
-
-      <td>$$\begin{split}
-(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{0.5in} \\ q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})
-  </td>
-  </tr>
-</table>
-
-
-
+ 
+ 
+|  Triangulation of Quadrangle  | Associated Quadratic Equation |
+| :---: | :---: | 
+| <img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation1.png"  width="100%" height="100%"> | $$\begin{split}(\mathcal{B}-q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})^2 = \hspace{0.5in} \\ q_{12}q_{23}q_{34}q_{41}(1-S_{2})(1-S_{4})\end{split}$$ |
+| ![example image](https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation2.png "An exemplary image") | $$\begin{split}(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{0.5in} \\ q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})\end{split}$$ |
 
 
 
