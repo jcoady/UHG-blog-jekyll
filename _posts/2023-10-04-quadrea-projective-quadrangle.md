@@ -27,15 +27,24 @@ If $q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} -q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3}
 
 $$\begin{split}\mathcal{B} = \frac{q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} + q_{41}q_{12}S_{1} + q_{23}q_{34}S_{3}}{2}\quad + \\ \frac{q_{12}q_{23}q_{34}q_{41}((1-S_{1})(1-S_{3}) - (1-S_{2})(1-S_{4}))}{2(q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} - q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})}\end{split}$$
    
+<table>
+  <tr>
+    <td> <img src="/blog/assets/images/QuadrangleTriangulation1.png"  width="40%" height="40%"></td>
 
-| Triangulation 1  | &nbsp; &nbsp; Triangulation 2 |
-| :---: | :---: | 
-| <img src="/blog/assets/images/QuadrangleTriangulation1.png"  width="40%" height="40%"> | <img src="/blog/assets/images/QuadrangleTriangulation1.png"  width="40%" height="40%"> |
-| $$\begin{split}
-(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{0.5in} \\ q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})
-\end{split}$$   | $$\begin{split}
+    <td> <img src="/blog/assets/images/QuadrangleTriangulation2.png"  width="40%" height="40%"></td>
+   </tr> 
+   <tr>
+      <td>$$\begin{split}
 (\mathcal{B}-q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})^2 = \hspace{0.5in} \\ q_{12}q_{23}q_{34}q_{41}(1-S_{2})(1-S_{4})
-\end{split}$$   |
+\end{split}$$</td>
+
+      <td>$$\begin{split}
+(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{0.5in} \\ q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})
+  </td>
+  </tr>
+</table>
+
+
 
 
 
