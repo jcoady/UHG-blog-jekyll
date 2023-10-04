@@ -38,9 +38,11 @@ Gone camping! :tent: Be back soon.
 
 That is so funny! :joy:
 
-Function | MySQL / MariaDB | PostgreSQL | SQLite
-:------------ | :-------------| :-------------| :-------------
-substr | :heavy_check_mark: |  :white_check_mark: | :heavy_check_mark:
+| Function | MySQL / MariaDB | PostgreSQL | SQLite |
+| :---- | :---------| :--------- | :----------|
+|substr | :heavy_check_mark: |  :white_check_mark: | :heavy_check_mark: |
+
+
 Paragraphs are separated by a blank line.
 
 2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
@@ -168,11 +170,11 @@ A horizontal rule follows using three stars
 
 ***
 
-Another one using three dashes
+Another one using three dashes  
 
 ---
 
-And another one using three underscores
+And another one using three underscores  
 
 ___
 
@@ -199,16 +201,37 @@ Here's a "line block":
 
 and images can be specified like so:
 
-![example image](https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/uhg1.jpg "An exemplary image")  
-<img src="https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/uhg1.jpg"  width="60%" height="60%">
-<img src="https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/uhg1.jpg"  width="30%" height="30%">
-![example image](https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/images/SOA_tiling3.png "An exemplary image")  
-<img src="https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/images/SOA_tiling3.png"  width="60%" height="60%">
-![hyperbolic image](https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/images/SOA_tiling3.png "Hyperbolic School Of Athens")  
-![example image](https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/images/BeltramiKleinModel.png "An exemplary image")  
-![example image](https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/images/QuadrangleTriangulation1.png "An exemplary image")  
-![example image](https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/images/QuadrangleTriangulation2.png "An exemplary image")  
-![example image](https://raw.githubusercontent.com/jcoady/UHG-blog-jekyll/master/assets/images/UHGModel.png "An exemplary image")  
+##### Using full url
+
+![example image](https://raw.githubusercontent.com/jcoady/blog/master/assets/uhg1.jpg "An exemplary image")
+
+<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/uhg1.jpg"  width="60%" height="60%">
+<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/uhg1.jpg"  width="30%" height="30%">
+
+
+![example image](https://raw.githubusercontent.com/jcoady/blog/master/assets/images/SOA_tiling3.png "An exemplary image")  
+<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/SOA_tiling3.png"  width="60%" height="60%">
+![hyperbolic image](https://raw.githubusercontent.com/jcoady/blog/master/assets/images/SOA_tiling3.png "Hyperbolic School Of Athens")  
+![example image](https://raw.githubusercontent.com/jcoady/blog/master/assets/images/BeltramiKleinModel.png "An exemplary image")  
+![example image](https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation1.png "An exemplary image")  
+![example image](https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation2.png "An exemplary image")  
+![example image](https://raw.githubusercontent.com/jcoady/blog/master/assets/images/UHGModel.png "An exemplary image")  
+
+##### Using pathname
+
+![example image](/blog/assets/uhg1.jpg "An exemplary image")
+
+<img src="/blog/assets/uhg1.jpg"  width="60%" height="60%">
+<img src="/blog/assets/uhg1.jpg"  width="30%" height="30%">
+
+
+![example image](/blog/assets/images/SOA_tiling3.png "An exemplary image")  
+<img src="/blog/assets/images/SOA_tiling3.png"  width="60%" height="60%">
+![hyperbolic image](/blog/assets/images/SOA_tiling3.png "Hyperbolic School Of Athens")  
+![example image](/blog/assets/images/BeltramiKleinModel.png "An exemplary image")  
+![example image](/blog/assets/images/QuadrangleTriangulation1.png "An exemplary image")  
+![example image](/blog/assets/images/QuadrangleTriangulation2.png "An exemplary image")  
+![example image](/blog/assets/images/UHGModel.png "An exemplary image")  
 
 Inline math equations go in like so: $\omega = d\phi / dt$. Display
 math should get its own line and be put in in double-dollarsigns:
@@ -361,9 +384,6 @@ Another list
 ##### Using pathname
 ![UHG Model](/blog/assets/images/UHGModel.png)  
 
-##### Using pathname with master
-![UHG Model](/blog/master/assets/images/UHGModel.png)  
-
 
 <!-- Github Markdown -->
 #### Github Markdown
@@ -430,6 +450,7 @@ end
 ## Extended Markdown Functionality
 
 ##### Tables
+
 |Name     | email |
 |------   | ---- |
 |John Doe | johndoe@gmail.com |
