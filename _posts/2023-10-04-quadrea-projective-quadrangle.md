@@ -30,11 +30,13 @@ $$\begin{split}\mathcal{B} = \frac{q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} + q_{41
  
 |  Triangulation of Quadrangle  | Associated Quadratic Equation |
 | :---: | :---: | 
-| <img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation1.png"  width="60%" height="60%"> | $$\begin{split}(\mathcal{B}-q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{2})(1-S_{4})\end{split}$$ |
-| <img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation2.png"  width="60%" height="60%">  | $$\begin{split}(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})\end{split}$$ |
+| <img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation1.png"  width="80%" height="80%"> | $$\begin{split}(\mathcal{B}-q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{2})(1-S_{4})\end{split}$$ |
+| <img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation2.png"  width="80%" height="80%">  | $$\begin{split}(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})\end{split}$$ |
 
 
+### Mathematica html file contents.
 
+<link href="/QuadreaOfProjectiveQuadrangle/quadreaOfHyperbolicProjectiveQuadranglelProofPart1.html" rel="import" />
 
 ##### Using full url
 
