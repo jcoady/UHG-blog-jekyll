@@ -36,9 +36,28 @@ $$\begin{split}\mathcal{B} = \frac{q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} + q_{41
 
 ### Mathematica html file contents.
 
-<link href="https://jcoady.github.io/QuadreaOfProjectiveQuadrangle/quadreaOfHyperbolicProjectiveQuadranglelProofPart1.html" rel="import" />
+<details>
+  <summary>Click me</summary>
+  
+  ### Heading
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
 
-<link href="/QuadreaOfProjectiveQuadrangle/quadreaOfHyperbolicProjectiveQuadranglelProofPart1.html" rel="import" />
+
+  ### Some Javascript
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+
+  <embed type="text/html" src="https://jcoady.github.io/QuadreaOfProjectiveQuadrangle/quadreaOfHyperbolicProjectiveQuadranglelProofPart1.html"  width="100%" height="500">
+
+</details>
+
+
 
 ![example image](https://jcoady.github.io/QuadreaOfProjectiveQuadrangle/HTMLFiles/quadreaOfHyperbolicProjectiveQuadranglelProofPart1_19.png "An exemplary image")
 
