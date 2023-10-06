@@ -36,10 +36,19 @@ $$\begin{split}\mathcal{B} = \frac{q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} + q_{41
 
 ### Mathematica html file contents.
 <details>
+  <summary>Proof Details
+</summary>
 
 ### Heading 3
 #### Heading 4
 
+</details>
+
+<details>
+  <summary>Collapsed Block
+</summary>
+
+  <h2 id="header">Header</h2>
 </details>
 
 <details open>
@@ -48,6 +57,8 @@ $$\begin{split}\mathcal{B} = \frac{q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} + q_{41
 </details>
 
 <details>
+  <summary>Get the Details.
+</summary>
 
   ### Heading
   1. Foo
