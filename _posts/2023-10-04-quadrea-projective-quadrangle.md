@@ -42,6 +42,11 @@ $$\begin{split}\mathcal{B} = \frac{q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} + q_{41
 ### Heading 3
 #### Heading 4
 
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
 </details>
 
 <details>
@@ -56,13 +61,22 @@ $$\begin{split}\mathcal{B} = \frac{q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} + q_{41
   <summary>Hello
 </summary>
   World!
+
 </details>
 
 <details>
-  <summary>Get the Details.
+  <summary>Hello
+</summary>
+  World!
+
+</details>
+
+<details>
+  <summary>Get the Details
 </summary>
 
-### Heading
+
+### Heading3
   1. Foo
   2. Bar
      * Baz
@@ -76,7 +90,7 @@ $$\begin{split}\mathcal{B} = \frac{q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} + q_{41
   }
   ```
 
-  <embed type="text/html" src="https://jcoady.github.io/QuadreaOfProjectiveQuadrangle/quadreaOfHyperbolicProjectiveQuadranglelProofPart1.html"  width="100%" height="500">
+<embed type="text/html" src="https://jcoady.github.io/QuadreaOfProjectiveQuadrangle/quadreaOfHyperbolicProjectiveQuadranglelProofPart1.html"  width="100%" height="500">
 
 </details>
 
