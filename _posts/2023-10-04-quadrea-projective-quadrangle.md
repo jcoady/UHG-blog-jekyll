@@ -8,6 +8,48 @@ background: '/assets/images/SOA_Archimedes.jpg'
 
 ## Quadrea of a Projective Quadrangle in Universal Hyperbolic Geometry
 
+<details>
+  <summary>Introduction and Background
+</summary>
+
+### Heading 3
+#### Heading 4
+
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+</details>
+
+<details>
+  <summary>Definitions (Click to expand)
+</summary>
+
+### Heading 3
+#### Heading 4
+
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+</details>
+
+<details open>
+  <summary>#Main Result
+</summary>
+
+### Heading 3
+#### Heading 4
+
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+</details>
+
 Here is the main theorem that we will prove for a general projective quadrangle in UHG consisting of projective points $a_{1}$, $a_{2}$, $a_{3}$ and $a_{4}$ as depicted in the following diagram.
 
 <img src="/blog/assets/images/UHGModel.png"  width="60%" height="60%">
@@ -36,12 +78,12 @@ $$\begin{split}\mathcal{B} = \frac{q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} + q_{41
 
 |  Triangulation of Quadrangle  | Associated Quadratic Equation |
 | :---: | :---: | 
-| {::nomarkdown}<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation1.png"  width="80%" height="90%">{:/} | $$\begin{split}(\mathcal{B}-q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{2})(1-S_{4})\end{split}$$ |
-| {::nomarkdown}<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation2.png"  width="80%" height="90%">{:/}  | $$\begin{split}(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})\end{split}$$ |
+| {::nomarkdown}<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation1.png"  width="90%" height="90%">{:/} | $$\begin{split}(\mathcal{B}-q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{2})(1-S_{4})\end{split}$$ |
+| {::nomarkdown}<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation2.png"  width="90%" height="90%">{:/}  | $$\begin{split}(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})\end{split}$$ |
 
 
 
-| Fruit   | Price  | Advantages                        |
+| Fruit   | &nbsp; &nbsp; Price &nbsp; &nbsp;  | &nbsp; &nbsp; Advantages                        |
 | ------- | ------ |--------------------------------- |
 | Bananas | $1.34  | {::nomarkdown}<ul><li>built-in wrapper</li><li>bright color</li></ul>{:/} |
 | Oranges | $2.10  | {::nomarkdown}<ul><li>curesscurvy</li><li>tasty</li></ul>{:/} |
@@ -217,7 +259,7 @@ Mathematica does not convert fractions to rounded off decimals - it treats them 
 ## Quadreal of a Projective Quadrilateral Theorem
 
    Suppose $L_{1}$, $L_{2}$, $L_{3}$ and $L_{4}$ are distinct lines with  spreads $S_{2} \equiv S(L_1,L_2)$, $S_{3} \equiv S(L_2,L_3)$, $S_{4} \equiv S(L_3,L_4)$ and  $S_{1} \equiv q(L_4,L_1)$ and quadrances $q_{12} \equiv q(L_{4}L_{1},L_{1}L_{2})$, $q_{23} \equiv q(L_{1}L_{2},L_{2}L_{3})$, $q_{34} \equiv q(L_{2}L_{3},L_{3}L_{4})$ and $q_{41} \equiv S(L_{3}L_{4},L_{4}L_{1})$
-    and quadrea $\mathcal{L}$. Then the quadreal of the projective quadrilateral is the common solution to the following pair of compatible quadratic equations
+    and quadreal $\mathcal{L}$. Then the quadreal of the projective quadrilateral is the common solution to the following pair of compatible quadratic equations
 
 
 
