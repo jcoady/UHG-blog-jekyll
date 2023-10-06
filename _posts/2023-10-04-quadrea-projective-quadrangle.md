@@ -48,11 +48,13 @@ $$\begin{split}\mathcal{B} = \frac{q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} + q_{41
   <summary>Collapsed Block
 </summary>
 
-  <h2 id="header">Header</h2>
+## Header
+
 </details>
 
-<details open>
-  <summary>Hello</summary>
+<details>
+  <summary>Hello
+</summary>
   World!
 </details>
 
@@ -60,14 +62,14 @@ $$\begin{split}\mathcal{B} = \frac{q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} + q_{41
   <summary>Get the Details.
 </summary>
 
-  ### Heading
+### Heading
   1. Foo
   2. Bar
      * Baz
      * Qux
 
 
-  ### Some Javascript
+### Some Javascript
   ```js
   function logSomething(something) {
     console.log('Something', something);
