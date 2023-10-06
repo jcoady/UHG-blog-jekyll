@@ -34,6 +34,18 @@ $$\begin{split}\mathcal{B} = \frac{q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} + q_{41
 | <img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation2.png"  width="80%" height="80%">  | $$\begin{split}(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})\end{split}$$ |
 
 
+|  Triangulation of Quadrangle  | Associated Quadratic Equation |
+| :---: | :---: | 
+| {::nomarkdown}<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation1.png"  width="80%" height="80%">{:/} | $$\begin{split}(\mathcal{B}-q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{2})(1-S_{4})\end{split}$$ |
+| {::nomarkdown}<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation2.png"  width="80%" height="80%">{:/}  | $$\begin{split}(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})\end{split}$$ |
+
+
+{::nomarkdown}<ul><li>built-in wrapper</li><li>bright color</li></ul>{:/}
+| Fruit   | Price  | Advantages                        |
+| ------- | ------ | --------------------------------- |
+| Bananas | $1.34  | {::nomarkdown}<ul><li>built-in wrapper</li><li>bright color</li></ul>{:/} |
+| Oranges | $2.10  | {::nomarkdown}<ul><li>cures scurvy</li><li>tasty</li></ul>{:/} |
+
 ### Mathematica html file contents.
 <details>
   <summary>Proof Details
@@ -196,6 +208,41 @@ Table 1: Main Laws of Rational Trigonometry and Universal Hyperbolic Geometry
 |=========+=========+=========|
 | Foot1   | Foot2   | Foot3   |
 |---------+---------+---------|
+
+
+### Mathematica
+
+Mathematica does not convert fractions to rounded off decimals - it treats them with infinite precision. Algebra is no problem for mathematica, if you want to solve a quadratic equation use the Solve[expr, vars] function.(e.g. Solve[$3x^2 + 5x - 1 == 0$, x] , Solve[$ax^2 + bx + c == 0$, x] ). Symbolic computation lies at the heart of mathematica.
+
+## Quadreal of a Projective Quadrilateral Theorem
+
+   Suppose $L_{1}$, $L_{2}$, $L_{3}$ and $L_{4}$ are distinct lines with  spreads $S_{2} \equiv S(L_1,L_2)$, $S_{3} \equiv S(L_2,L_3)$, $S_{4} \equiv S(L_3,L_4)$ and  $S_{1} \equiv q(L_4,L_1)$ and quadrances $q_{12} \equiv q(L_{4}L_{1},L_{1}L_{2})$, $q_{23} \equiv q(L_{1}L_{2},L_{2}L_{3})$, $q_{34} \equiv q(L_{2}L_{3},L_{3}L_{4})$ and $q_{41} \equiv S(L_{3}L_{4},L_{4}L_{1})$
+    and quadrea $\mathcal{L}$. Then the quadreal of the projective quadrilateral is the common solution to the following pair of compatible quadratic equations
+
+
+
+
+$$\begin{split}
+(\mathcal{L}-S_{2}S_{3}q_{23} - S_{4}S_{1}q_{41})^2 &= 4S_{1}S_{2}S_{3}S_{4}(1-q_{12})(1-q_{34}) \\  (\mathcal{L}-S_{1}S_{2}q_{12} - S_{3}S_{4}q_{34})^2 &= 4S_{1}S_{2}S_{3}S_{4}(1-q_{23})(1-q_{41})
+\end{split}$$
+
+
+If $S_{2}S_{3}q_{23} + S_{4}S_{1}q_{41} - S_{1}S_{2}q_{12} - S_{3}S_{4}q_{34} \neq 0$ then the quadreal is precisely 
+
+ 
+\begin{multline}
+$$\begin{split}\mathcal{L} = \frac{S_{2}S_{3}q_{23} + S_{4}S_{1}q_{41} + S_{1}S_{2}q_{12} + S_{3}S_{4}q_{34}}{2}\quad + \\ \frac{4(S_{1}S_{2}S_{3}S_{4}((1-q_{12})(1-q_{34}) - (1-q_{23})(1-q_{41})))}{2(S_{2}S_{3}q_{23} + S_{4}S_{1}q_{41} - S_{1}S_{2}q_{12} - S_{3}S_{4}q_{34})}\end{split}$$
+   
+
+### Proof
+> This is dual to the Quadrea of Projective Quadrangle theorem.
+
+ 
+|  Triangulation of Quadrilateral  | Associated Quadratic Equation |
+| :---: | :---: | 
+| <img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrilateralTriangulation1.png"  width="80%" height="80%"> | $$\begin{split}(\mathcal{B}-q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{2})(1-S_{4})\end{split}$$ |
+| <img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrilateralTriangulation2.png"  width="80%" height="80%">  | $$\begin{split}(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})\end{split}$$ |
+
 
 <details>
   <summary>Proof Details Hyperbolic Setting
