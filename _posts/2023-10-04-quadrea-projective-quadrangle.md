@@ -36,15 +36,15 @@ $$\begin{split}\mathcal{B} = \frac{q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} + q_{41
 
 |  Triangulation of Quadrangle  | Associated Quadratic Equation |
 | :---: | :---: | 
-| {::nomarkdown}<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation1.png"  width="80%" height="80%">{:/} | $$\begin{split}(\mathcal{B}-q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{2})(1-S_{4})\end{split}$$ |
-| {::nomarkdown}<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation2.png"  width="80%" height="80%">{:/}  | $$\begin{split}(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})\end{split}$$ |
+| {::nomarkdown}<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation1.png"  width="80%" height="90%">{:/} | $$\begin{split}(\mathcal{B}-q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{2})(1-S_{4})\end{split}$$ |
+| {::nomarkdown}<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation2.png"  width="80%" height="90%">{:/}  | $$\begin{split}(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})\end{split}$$ |
 
 
-{::nomarkdown}<ul><li>built-in wrapper</li><li>bright color</li></ul>{:/}
+
 | Fruit   | Price  | Advantages                        |
-| ------- | ------ | --------------------------------- |
+| ------- | ------ |--------------------------------- |
 | Bananas | $1.34  | {::nomarkdown}<ul><li>built-in wrapper</li><li>bright color</li></ul>{:/} |
-| Oranges | $2.10  | {::nomarkdown}<ul><li>cures scurvy</li><li>tasty</li></ul>{:/} |
+| Oranges | $2.10  | {::nomarkdown}<ul><li>curesscurvy</li><li>tasty</li></ul>{:/} |
 
 ### Mathematica html file contents.
 <details>
@@ -230,7 +230,6 @@ $$\begin{split}
 If $S_{2}S_{3}q_{23} + S_{4}S_{1}q_{41} - S_{1}S_{2}q_{12} - S_{3}S_{4}q_{34} \neq 0$ then the quadreal is precisely 
 
  
-\begin{multline}
 $$\begin{split}\mathcal{L} = \frac{S_{2}S_{3}q_{23} + S_{4}S_{1}q_{41} + S_{1}S_{2}q_{12} + S_{3}S_{4}q_{34}}{2}\quad + \\ \frac{4(S_{1}S_{2}S_{3}S_{4}((1-q_{12})(1-q_{34}) - (1-q_{23})(1-q_{41})))}{2(S_{2}S_{3}q_{23} + S_{4}S_{1}q_{41} - S_{1}S_{2}q_{12} - S_{3}S_{4}q_{34})}\end{split}$$
    
 
@@ -240,8 +239,8 @@ $$\begin{split}\mathcal{L} = \frac{S_{2}S_{3}q_{23} + S_{4}S_{1}q_{41} + S_{1}S_
  
 |  Triangulation of Quadrilateral  | Associated Quadratic Equation |
 | :---: | :---: | 
-| <img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrilateralTriangulation1.png"  width="80%" height="80%"> | $$\begin{split}(\mathcal{B}-q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{2})(1-S_{4})\end{split}$$ |
-| <img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrilateralTriangulation2.png"  width="80%" height="80%">  | $$\begin{split}(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})\end{split}$$ |
+| <img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrilateralTriangulation1.png"  width="80%" height="80%"> | $$\begin{split}(\mathcal{L}-S_{2}S_{3}q_{23} - S_{4}S_{1}q_{41})^2 = \hspace{0.5in} \\ 4S_{1}S_{2}S_{3}S_{4}(1-q_{12})(1-q_{34})\end{split}$$ |
+| <img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrilateralTriangulation2.png"  width="80%" height="80%">  | $$\begin{split}(\mathcal{L}-S_{1}S_{2}q_{12} - S_{3}S_{4}q_{34})^2 = \hspace{0.5in} \\ 4S_{1}S_{2}S_{3}S_{4}(1-q_{23})(1-q_{41}) \end{split}$$ |
 
 
 <details>
