@@ -86,16 +86,8 @@ $$\begin{split}\mathcal{B} = \frac{q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} + q_{41
 
 </details>
 
-</br>
-</br>
-</br>
-
-
-#### Markdown 
-| Fruit   | &nbsp; &nbsp; Price &nbsp; &nbsp;| &nbsp; &nbsp; Advantages                        |
-| ------- | ------ |-------------------------- |
-| Bananas &nbsp; | $1.34  | {::nomarkdown}<ul><li>built-in wrapper</li><li>bright color</li></ul>{:/} |
-| Oranges | $2.10  | {::nomarkdown}<ul><li>curesscurvy</li><li>tasty</li></ul>{:/} |
+<br>
+<br>
 
 ### Mathematica html file contents.
 <details>
@@ -276,6 +268,11 @@ $$\begin{split}\mathcal{L} = \frac{S_{2}S_{3}q_{23} + S_{4}S_{1}q_{41} + S_{1}S_
 | <img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrilateralTriangulation1.png"  width="80%" height="80%"> | $$\begin{split}(\mathcal{L}-S_{2}S_{3}q_{23} - S_{4}S_{1}q_{41})^2 = \hspace{0.5in} \\ 4S_{1}S_{2}S_{3}S_{4}(1-q_{12})(1-q_{34})\end{split}$$ |
 | <img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrilateralTriangulation2.png"  width="80%" height="80%">  | $$\begin{split}(\mathcal{L}-S_{1}S_{2}q_{12} - S_{3}S_{4}q_{34})^2 = \hspace{0.5in} \\ 4S_{1}S_{2}S_{3}S_{4}(1-q_{23})(1-q_{41}) \end{split}$$ |
 
+|  Triangulation 1 and its <br> Corresponding Quadratic Equation  | Triangulation 2 and its <br> Corresponding Quadratic Equation  |
+| :---: | :---: | 
+| {::nomarkdown}<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrilateralTriangulation1.png"  width="100%" height="100%">{:/} | {::nomarkdown}<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrilateralTriangulation2.png"  width="100%" height="100%">{:/}  |
+|=================|================|
+| $$\begin{split}(\mathcal{L}-S_{2}S_{3}q_{23} - S_{4}S_{1}q_{41})^2 = \hspace{0.5in} \\ 4S_{1}S_{2}S_{3}S_{4}(1-q_{12})(1-q_{34})\end{split}$$ &nbsp;| $$\begin{split}(\mathcal{L}-S_{1}S_{2}q_{12} - S_{3}S_{4}q_{34})^2 = \hspace{0.5in} \\ 4S_{1}S_{2}S_{3}S_{4}(1-q_{23})(1-q_{41}) \end{split}$$ &nbsp;|
 
 <details>
   <summary>Proof Details Hyperbolic Setting
