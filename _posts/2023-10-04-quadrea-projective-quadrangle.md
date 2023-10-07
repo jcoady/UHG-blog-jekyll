@@ -9,7 +9,7 @@ background: '/assets/images/SOA_Archimedes.jpg'
 ## Quadrea of a Projective Quadrangle in Universal Hyperbolic Geometry
 
 <details>
-  <summary>Introduction and Background
+  <summary><h2>Introduction and Background</h2> (Click to expand)
 </summary>
 
 ### Heading 3
@@ -44,7 +44,7 @@ under scaling of any one of the coordinates $a_1, a_2$ or $a_3$.
 </details>
 
 <details open>
-  <summary>Main Result
+  <summary><h1>Main Result</h1>
 </summary>
 
 
