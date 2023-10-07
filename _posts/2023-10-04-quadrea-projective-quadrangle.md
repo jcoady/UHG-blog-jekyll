@@ -9,7 +9,7 @@ background: '/assets/images/SOA_Archimedes.jpg'
 ## Quadrea of a Projective Quadrangle in Universal Hyperbolic Geometry
 
 <details>
-  <summary><h2>Introduction and Background (Click to expand)</h2> 
+  <summary><h2>Introduction and Background</h2> (Click to expand) 
 </summary>
 
 ### Heading 3
@@ -23,20 +23,21 @@ background: '/assets/images/SOA_Archimedes.jpg'
 </details>
 
 <details>
-  <summary><b><em>Definitions</em></b> (Click to expand)
+  <summary><h2>Definitions</h2> (Click to expand)
 </summary>
 
 ### Heading 3
 #### Heading 4
 
-The quadrance between points: 
+### The quadrance between points: 
   $$q(a_1,a_2) \equiv 1 - \frac{(x_1x_2 + y_1y_2 - z_1z_2)^2}{(x_1^2 + y_1^2 - z_1^2)(x_2^2 + y_2^2 - z_2^2)}$$
 
-The spread between lines S(L_1,L_2): 
+### The spread between lines S(L_1,L_2): 
   $$S(L_1,L_2) \equiv 1 - \frac{(l_1l_2 + m_1m_2 - n_1n_2)^2}{(l_1^2 + m_1^2 - n_1^2)(l_2^2 + m_2^2 - n_2^2)}$$
 
 
 Quadrea of a triangle $\mathcal{A}(\overline{a_1a_2a_3}) = q_1q_2S_3 = q_2q_3S_1 = q_1q_3S_2$ by symmetry.$$q_2q_3S_1 = -\frac{(x_1y_2z_3-x_1y_3z_2+x_2y_3z_1-x_3y_2z_1+x_3y_1z_2-x_2y_1z_3)^2}{(x_1^2+y_1^2-z_1^2)(x_2^2+y_2^2-z_2^2)(x_3^2+y_3^2-z_3^2)}$$  
+
 This turns out to be the most important triangle invariant [<cite> Norman Wildberger</cite>][njwildberger_2011_UHG27]
 under scaling of any one of the coordinates $a_1, a_2$ or $a_3$.  
 
@@ -44,7 +45,7 @@ under scaling of any one of the coordinates $a_1, a_2$ or $a_3$.
 </details>
 
 <details open>
-  <summary><h1>Main Findings</h1>
+  <summary><h2>Main Findings</h2>
 </summary>
 
 
@@ -71,8 +72,8 @@ $$\begin{split}\mathcal{B} = \frac{q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} + q_{41
  
 |  Triangulation of Quadrangle  | Associated Quadratic Equation |
 | :---: | :---: | 
-| <img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation1.png"  width="80%" height="80%"> | $$\begin{split}(\mathcal{B}-q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{2})(1-S_{4})\end{split}$$ |
-| <img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation2.png"  width="80%" height="80%">  | $$\begin{split}(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})\end{split}$$ |
+| <img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation1.png"  width="100%" height="100%"> | $$\begin{split}(\mathcal{B}-q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{2})(1-S_{4})\end{split}$$ |
+| <img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation2.png"  width="100%" height="100%">  | $$\begin{split}(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})\end{split}$$ |
 
 
 |  Triangulation of Quadrangle  | Associated Quadratic Equation |
@@ -80,11 +81,17 @@ $$\begin{split}\mathcal{B} = \frac{q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} + q_{41
 | {::nomarkdown}<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation1.png"  width="100%" height="100%">{:/} | $$\begin{split}(\mathcal{B}-q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{2})(1-S_{4})\end{split}$$ |
 | {::nomarkdown}<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation2.png"  width="100%" height="100%">{:/}  | $$\begin{split}(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})\end{split}$$ |
 
+
+|  Triangulation 1 and Associated <br> Quadratic Equation  | Triangulation 2 and Associated <br> Quadratic Equation  |
+| :---: | :---: | 
+| {::nomarkdown}<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation1.png"  width="100%" height="100%">{:/} | {::nomarkdown}<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation2.png"  width="100%" height="100%">{:/}  |
+| $$\begin{split}(\mathcal{B}-q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{2})(1-S_{4})\end{split}$$ | $$\begin{split}(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})\end{split}$$ |
+
 </details>
 
 
-| Fruit   | &nbsp; &nbsp; Price &nbsp; &nbsp;  | &nbsp; &nbsp; &nbsp; &nbsp Advantages                        |
-| ------- | ------ |--------------------------------- |
+| Fruit   | &nbsp; &nbsp; Price &nbsp; &nbsp;  | &nbsp; &nbsp; &nbsp; &nbsp;Advantages                        |
+| ------- | :------: |--------------------------------- |
 | Bananas &nbsp; &nbsp; | $1.34  | {::nomarkdown}<ul><li>built-in wrapper</li><li>bright color</li></ul>{:/} |
 | Oranges | $2.10  | {::nomarkdown}<ul><li>curesscurvy</li><li>tasty</li></ul>{:/} |
 
