@@ -23,32 +23,31 @@ background: '/assets/images/SOA_Archimedes.jpg'
 </details>
 
 <details>
-  <summary>Definitions (Click to expand)
+  <summary><b><em>Definitions</em></b> (Click to expand)
 </summary>
 
 ### Heading 3
 #### Heading 4
 
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
+The quadrance between points: 
+  $$q(a_1,a_2) \equiv 1 - \frac{(x_1x_2 + y_1y_2 - z_1z_2)^2}{(x_1^2 + y_1^2 - z_1^2)(x_2^2 + y_2^2 - z_2^2)}$$
+
+The spread between lines S(L_1,L_2): 
+  $$S(L_1,L_2) \equiv 1 - \frac{(l_1l_2 + m_1m_2 - n_1n_2)^2}{(l_1^2 + m_1^2 - n_1^2)(l_2^2 + m_2^2 - n_2^2)}$$
+
+
+Quadrea of a triangle $\mathcal{A}(\overline{a_1a_2a_3}) = q_1q_2S_3 = q_2q_3S_1 = q_1q_3S_2$ by symmetry.$$q_2q_3S_1 = -\frac{(x_1y_2z_3-x_1y_3z_2+x_2y_3z_1-x_3y_2z_1+x_3y_1z_2-x_2y_1z_3)^2}{(x_1^2+y_1^2-z_1^2)(x_2^2+y_2^2-z_2^2)(x_3^2+y_3^2-z_3^2)}$$  
+This turns out to be the most important triangle invariant [<cite> Norman Wildberger</cite>][njwildberger_2011_UHG27]
+under scaling of any one of the coordinates $a_1, a_2$ or $a_3$.  
+
 
 </details>
 
 <details open>
-  <summary>#Main Result
+  <summary>Main Result
 </summary>
 
-### Heading 3
-#### Heading 4
 
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
-
-</details>
 
 Here is the main theorem that we will prove for a general projective quadrangle in UHG consisting of projective points $a_{1}$, $a_{2}$, $a_{3}$ and $a_{4}$ as depicted in the following diagram.
 
@@ -78,14 +77,15 @@ $$\begin{split}\mathcal{B} = \frac{q_{12}q_{23}S_{2} + q_{34}q_{41}S_{4} + q_{41
 
 |  Triangulation of Quadrangle  | Associated Quadratic Equation |
 | :---: | :---: | 
-| {::nomarkdown}<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation1.png"  width="90%" height="90%">{:/} | $$\begin{split}(\mathcal{B}-q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{2})(1-S_{4})\end{split}$$ |
-| {::nomarkdown}<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation2.png"  width="90%" height="90%">{:/}  | $$\begin{split}(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})\end{split}$$ |
+| {::nomarkdown}<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation1.png"  width="100%" height="100%">{:/} | $$\begin{split}(\mathcal{B}-q_{41}q_{12}S_{1} - q_{23}q_{34}S_{3})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{2})(1-S_{4})\end{split}$$ |
+| {::nomarkdown}<img src="https://raw.githubusercontent.com/jcoady/blog/master/assets/images/QuadrangleTriangulation2.png"  width="100%" height="100%">{:/}  | $$\begin{split}(\mathcal{B}-q_{12}q_{23}S_{2} - q_{34}q_{41}S_{4})^2 = \hspace{0.5in} \\ 4q_{12}q_{23}q_{34}q_{41}(1-S_{1})(1-S_{3})\end{split}$$ |
+
+</details>
 
 
-
-| Fruit   | &nbsp; &nbsp; Price &nbsp; &nbsp;  | &nbsp; &nbsp; Advantages                        |
+| Fruit   | &nbsp; &nbsp; Price &nbsp; &nbsp;  | &nbsp; &nbsp; &nbsp; &nbsp Advantages                        |
 | ------- | ------ |--------------------------------- |
-| Bananas | $1.34  | {::nomarkdown}<ul><li>built-in wrapper</li><li>bright color</li></ul>{:/} |
+| Bananas &nbsp; &nbsp; | $1.34  | {::nomarkdown}<ul><li>built-in wrapper</li><li>bright color</li></ul>{:/} |
 | Oranges | $2.10  | {::nomarkdown}<ul><li>curesscurvy</li><li>tasty</li></ul>{:/} |
 
 ### Mathematica html file contents.
@@ -193,23 +193,6 @@ $$I = \int \rho R^{2} dV$$
 
 When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
-
-The quadrance between points: 
-  $$q(a_1,a_2) \equiv 1 - \frac{(x_1x_2 + y_1y_2 - z_1z_2)^2}{(x_1^2 + y_1^2 - z_1^2)(x_2^2 + y_2^2 - z_2^2)}$$
-
-The spread between lines S(L_1,L_2): 
-  $$S(L_1,L_2) \equiv 1 - \frac{(l_1l_2 + m_1m_2 - n_1n_2)^2}{(l_1^2 + m_1^2 - n_1^2)(l_2^2 + m_2^2 - n_2^2)}$$
-
-The quadrance between points:   
-  \[q(a_1,a_2) \equiv 1 - \frac{(x_1x_2 + y_1y_2 - z_1z_2)^2}{(x_1^2 + y_1^2 - z_1^2)(x_2^2 + y_2^2 - z_2^2)}\]
-
-The spread between lines S(L_1,L_2): 
-  \[S(L_1,L_2) \equiv 1 - \frac{(l_1l_2 + m_1m_2 - n_1n_2)^2}{(l_1^2 + m_1^2 - n_1^2)(l_2^2 + m_2^2 - n_2^2)}\]
-
-
-Quadrea of a triangle $\mathcal{A}(\overline{a_1a_2a_3}) = q_1q_2S_3 = q_2q_3S_1 = q_1q_3S_2$ by symmetry.$$q_2q_3S_1 = -\frac{(x_1y_2z_3-x_1y_3z_2+x_2y_3z_1-x_3y_2z_1+x_3y_1z_2-x_2y_1z_3)^2}{(x_1^2+y_1^2-z_1^2)(x_2^2+y_2^2-z_2^2)(x_3^2+y_3^2-z_3^2)}$$  
-This turns out to be the most important triangle invariant [<cite> Norman Wildberger</cite>][njwildberger_2011_UHG27]
-under scaling of any one of the coordinates $a_1, a_2$ or $a_3$.  
 
  $q_1, q_2, q_3, q_4, S_1, S_2, S_3 and S_4$
 
